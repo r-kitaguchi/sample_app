@@ -3,16 +3,15 @@
   <head>
     <title><%= full_title(yield(:title)) %></title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <%= render "shared/rails_default" %>
-    <%= render "shared/shim" %>
+    <%= render "layouts/rails_default" %>
+    <%= render "layouts/shim" %>
   </head>
 
   <body>
-    <%= render "shared/shim" %>
-    <%= render "shared/header" %>
+    <%= render "layouts/header" %>
     <div class="container">
       <%= yield %>
-      <%= render "shared/footer" %>
+      <%= render "layouts/footer" %>
     </div>
   </body>
 </html>
