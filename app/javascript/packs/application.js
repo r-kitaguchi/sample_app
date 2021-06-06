@@ -7,7 +7,17 @@ import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
+import 'bootstrap'
+import 'jquery'
 
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+// window.onload = function(){
+//   const dropdownMenu = document.querySelector(".dropdown-menu");
+//   const dropdownToggle = document.querySelector(".dropdown-toggle");
+//   dropdownToggle.addEventListener("click", function(){
+//     dropdownMenu.classList.toggle("dropdown_display")
+//   }),false
+// }
